@@ -15,6 +15,7 @@ kanban-plugin: basic
 
 - [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
 - [ ] [[Follow python guide   for basic langchain implementation]]<br>#LLM #Joel @{2023-06-24}
+- [ ] First Phase Presentation <br>#documentation #Anish #Arindam @{2023-06-24}
 
 
 ## Done
