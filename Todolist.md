@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Follow [python guide](https://python.langchain.com/en/latest/use_cases/question_answering.html)   for basic langchain implementation<br>#LLM #Joel
 - [ ] Check out  [this](https://github.com/hwchase17/notion-qa) way to chat with document databases in notion #LLM #Joel
 - [ ] Run LLM in oobabooga #UI
 
@@ -14,6 +13,11 @@ kanban-plugin: basic
 ## Doing
 
 - [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
+<<<<<<< HEAD
+=======
+- [ ] Summarise attention is all you need #Research #Anish
+- [ ] [[Follow python guide   for basic langchain implementation]]<br>#LLM #Joel
+>>>>>>> 351a814392baac679ab0fbe3dc53885aea9cb576
 
 
 ## Done
