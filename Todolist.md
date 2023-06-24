@@ -14,8 +14,8 @@ kanban-plugin: basic
 ## Doing
 
 - [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
-- [ ] [[Follow python guide   for basic langchain implementation]]<br>#LLM #Joel @{2023-06-24}
-- [ ] [[First Phase Presentation]] <br>immediate priority<br>[[https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit?usp=sharing&ouid=113458396771149391534&rtpof=true&sd=true]]<br>#documentation #Anish #Arindam @{2023-06-24}
+- [ ] [[Follow python guide for basic langchain implementation]]<br>#LLM #Joel @{2023-06-24}
+- [ ] [[First Phase Presentation]] <br>[link](https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit?usp=sharing&ouid=113458396771149391534&rtpof=true&sd=true)<br>#documentation #Anish #Arindam @{2023-06-24}
 
 
 ## Done

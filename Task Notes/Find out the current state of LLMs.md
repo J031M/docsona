@@ -4,7 +4,7 @@ I'm finding the right LLM.
 
 You'll probably need to go through each line because some of them are todos.
 
-I'm trying to query some of the models hosted on hugging face but it's taking forever. I've decided to go with [wizard-vicuna-13b-uncensored](https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML) since it has the best score in hugging face's open LLM rankings.
+I'm trying to query some of the models hosted on hugging face but it's taking forever. I've decided to go with  [wizard-vicuna-13b-uncensored](https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML) since it has the best score in hugging face's open LLM rankings. ^modelchoice
 
 # Compressions techniques
 
@@ -37,6 +37,7 @@ The Automatic 1111 of LLMs
 A C library for LLMs using quantisation to allow them to run on CPU! [C Transformers](https://github.com/ggerganov/ggmlL) is its python wrapper that's compatible with langchain. My guess right now is that models are finetunes with QLoRA and then converted to GGML format. Damn I'm a genius. [This](https://github.com/ggerganov/llama.cpp/discussions/1595) was the discussion about fine-tuning GGML, I don't think there'
 
 ### [Llama.cpp](https://github.com/ggerganov/llama.cpp)
+
 Allows for inferencing LLMs. Oobabooga front end supported. [Python bindings](https://github.com/abetlen/llama-cpp-python) exist too, which is compatible with langchain.
 
 # LangChain for ChatPDF
