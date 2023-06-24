@@ -13,11 +13,8 @@ kanban-plugin: basic
 ## Doing
 
 - [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
-<<<<<<< HEAD
-=======
 - [ ] Summarise attention is all you need #Research #Anish
 - [ ] [[Follow python guide   for basic langchain implementation]]<br>#LLM #Joel
->>>>>>> 351a814392baac679ab0fbe3dc53885aea9cb576
 
 
 ## Done
