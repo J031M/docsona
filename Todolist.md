@@ -8,23 +8,19 @@ kanban-plugin: basic
 
 - [ ] Check out  [this](https://github.com/hwchase17/notion-qa) way to chat with document databases in notion #LLM #Joel
 - [ ] Run LLM in oobabooga #UI
+- [ ] Summarise [LLM.int8()](https://arxiv.org/pdf/2208.07339.pdf) #Research #Arindam
 
 
 ## Doing
 
 - [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
-- [ ] Summarise attention is all you need #Research #Anish
-- [ ] [[Follow python guide   for basic langchain implementation]]<br>#LLM #Joel
+- [ ] [[Follow python guide   for basic langchain implementation]]<br>#LLM #Joel @{2023-06-24}
 
 
 ## Done
 
 - [ ] [[Find out the current state of LLMs]] #Research #Joel @{2023-06-15}
 - [ ] Summarise [[Attention is all you need]] #Research #Anish
-
-
-## Ideas
-
 
 
 
