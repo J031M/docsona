@@ -45,3 +45,43 @@ Langchain has an embeddings class that serves as a common interface to all the e
 
 ## Vector Stores
 
+Does literally just that. Stores embedings of your docs and at query time, embeds the query and retrieves similar vectors. This takes care of storing and doing the vector search. 
+
+FAISS vector database uses Facebook AI similarity search. There's also pinecone, chroma and Redis, you'll need to pick which you want. 
+
+## Retrievers
+
+It returns documents given an unstructured query. Vector stores may be used as their backbone but there are alternatives. The documentation was a tutorial of our project instead.
+
+This part of the docs is kinda hands-on, I'll do my best to distill it
+
+### Context compressors
+
+The context compressor takes input from the retreiver and further distills it to what is relevant to the query. 
+
+**LLMChainExtractor**: Iterates over the results and extracts relevant context.
+**LLMChainFilter**: Iterates over the results and filters out irrelevant documents without changing their content
+**EmbeddingsFilter**: An LLM call may be too expensive in which case filter through documents which have similar embeddings (which is the whole point of vector search no? Maybe this is for the other retreival methods)
+
+### Self query
+
+These retrievers are capable of extracting filters from the query and apply those filters on the metadata of the document. I don't think it's relevant to our project.
+
+```python
+# This example specifies a query and a filter
+retriever.get_relevant_documents("Has Greta Gerwig directed any movies about women")
+```
+```
+query='women' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='director', value='Greta Gerwig')
+
+
+[Document(page_content='A bunch of normal-sized women are supremely wholesome and some men pine after them', metadata={'director': 'Greta Gerwig', 'rating': 8.3, 'year': 2019.0})]
+```
+
+### Time decay
+
+Reduce relevance of less recently accessed documents. Good if we've got a huge database but for accuracy reasons I think it's best to limit the ingested amount per chat.
+
+---
+I think I've spent long enough just reading the wiki. I'm going to move on to the guide.
+
