@@ -20,7 +20,7 @@ kanban-plugin: basic
 ## Done
 
 - [ ] [[Find out the current state of LLMs]] #Research #Joel @{2023-06-15}
-- [ ] Summarise attention is all you need #Research #Anish
+- [ ] Summarise [[Attention is all you need]] #Research #Anish
 
 
 ## Ideas
