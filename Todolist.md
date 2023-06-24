@@ -12,18 +12,14 @@ kanban-plugin: basic
 
 ## Doing
 
-- [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
-<<<<<<< HEAD
-=======
-- [ ] Summarise attention is all you need #Research #Anish
+- [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}<br><<<<<<< HEAD<br>=======
 - [ ] [[Follow python guide   for basic langchain implementation]]<br>#LLM #Joel
->>>>>>> 351a814392baac679ab0fbe3dc53885aea9cb576
 
 
 ## Done
 
 - [ ] [[Find out the current state of LLMs]] #Research #Joel @{2023-06-15}
-- [ ] Summarise attention is all you need #Research #Anish
+- [ ] Summarise [[Attention is all you need]] #Research #Anish
 
 
 ## Ideas
