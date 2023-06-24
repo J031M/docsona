@@ -2,7 +2,7 @@
 
 1. List of all papers reviewed under this (if no notes just add paper name):
    - [[Attention is all you need]]
-   - LLM.int8() (Arindam's git isn't working, I'll add the summary when he sends)
+   - [[LLM.int8()]]
 2. List of Methods used in existing systems :
    - privateGPT
    - chatPDF
