@@ -1,9 +1,10 @@
 [Presentation link](https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit?usp=sharing&ouid=113458396771149391534&rtpof=true&sd=true)
 
-1. List of all papers reviewed under this (if no notes just add paper name):
+1. List of all papers reviewed under this (if no notes just add paper n
+2. ame):
    - [[Attention is all you need]]
    - [[LLM.int8()]]
-2. List of Methods used in existing systems :
+3. List of Methods used in existing systems :
    - privateGPT
    - chatPDF
    - geniusPDF
@@ -35,3 +36,45 @@ In generation, the query is taken from the user and embedded in a similar way. W
 Finally this distilled information is fed into our LLM along with the query and it generates the answer. 
 
 All this circus we do is because we don't want to pass the entire document to the LLM and call it a day. This method leads to lower latency, better accuracy and also lets us use smaller models effectively.
+
+For flowchart, ran the methodology on GPT and found this as the most suiting answer for us :
+Here is a suggested flowchart outlining the tasks and subtasks of your project based on the provided methodology:
+
+1. Ingestion Phase:
+   - Splitting Documents:
+     - Identify and implement a semantic and context-preserving document splitting algorithm.
+   - Text Embedding:
+     - Select an appropriate text embedding technique.
+     - Develop a pipeline to convert the text chunks into embeddings.
+   - Vector Database:
+     - Set up a vector database to store the generated embeddings.
+     - Implement the necessary functions for efficient storage and retrieval.
+
+2. Generation Phase:
+   - Query Embedding:
+     - Choose a suitable embedding method for queries.
+     - Develop a process to embed user queries using the selected technique.
+   - Similarity Vector Search:
+     - Design and implement a similarity vector search algorithm.
+     - Retrieve relevant text chunks based on the similarity search.
+   - Context Compression:
+     - Develop a context compression mechanism to filter out irrelevant information from the retrieved text chunks.
+     - Implement the necessary algorithms to perform context compression effectively.
+
+3. Answer Generation:
+   - Language Model Integration:
+     - Select an appropriate Language Model (LLM) for answer generation.
+     - Integrate the LLM with the context-compressed input and user query.
+   - Answer Generation:
+     - Develop a pipeline to generate accurate and contextually appropriate answers using the LLM.
+   - Post-processing:
+     - Implement any necessary post-processing steps to refine the generated answers.
+
+4. Overall Integration:
+   - Workflow Integration:
+     - Create a comprehensive workflow that connects the ingestion and generation phases.
+   - User Interface:
+     - Design and develop a user interface for interacting with the system.
+   - System Testing and Evaluation:
+     - Conduct rigorous testing to ensure the functionality and performance of the system.
+     - Evaluate the system's accuracy, latency, and usability.
