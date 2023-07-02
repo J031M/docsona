@@ -7,3 +7,7 @@ Attention is all you need The OG paper that started all this
 # Websites
 [TinyML](https://tinyml.substack.com/) Exceptional summaries focusing on MLops, LLMs and tinyMLops
 [Notebook on openai finetuning](https://colab.research.google.com/drive/1_sGhwQ5BrbNIt0NpCb3JSrjyc7zKLKDe?usp=sharingscrollTo=BRcpq-fbHOeA)
+
+# Documentation
+[Synopsis](https://docs.google.com/document/d/1udl6QdMEn1-RZyWJcsuopNjfHUGedGvehUWOavb0aAs/edit?usp=drive_link)
+[Phase 1 ppt](https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit#slide=id.p6)
