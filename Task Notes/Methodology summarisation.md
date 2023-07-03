@@ -1,3 +1,4 @@
+
 ### stage 1: System Requirements & Analysis
 #### Identify User Requirements:
 Understand the needs of the end-users, such as supported document formats (PDF, Word, plain text), search functionality by title, author, or keywords, and expectations from the document summarization process.

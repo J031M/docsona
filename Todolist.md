@@ -8,20 +8,24 @@ kanban-plugin: basic
 
 - [ ] Check out  [this](https://github.com/hwchase17/notion-qa) way to chat with document databases in notion #LLM #Joel
 - [ ] Run LLM in oobabooga #UI
+- [ ] Document hugging face's benchmarking methods<br>#documentation #Arindam
+- [ ] Find/create a summarisation dataset for finetuning<br>#LLM #Anish
 
 
 ## Doing
 
-- [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
 - [ ] [[Follow python guide for basic langchain implementation]]<br>#LLM #Joel @{2023-06-24}
-- [ ] [[First Phase Presentation]] <br>[link](https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit?usp=sharing&ouid=113458396771149391534&rtpof=true&sd=true)<br>#documentation #Anish #Arindam @{2023-06-24}
+- [ ] Use [[MLOps]] procedures<br>#Research #Joel
 
 
 ## Done
 
+- [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
 - [ ] [[Find out the current state of LLMs]] #Research #Joel @{2023-06-15}
 - [ ] Summarise [[Attention is all you need]] #Research #Anish
 - [ ] Summarise [[LLM.int8()]] #Research #Arindam
+- [ ] [[First Phase Presentation]] <br>[link](https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit?usp=sharing&ouid=113458396771149391534&rtpof=true&sd=true)<br>#documentation #Anish #Arindam @{2023-06-24}
+- [ ] [[Methodology summarisation]]<br>#documentation #Anish
 
 
 
