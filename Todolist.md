@@ -20,12 +20,13 @@ kanban-plugin: basic
 
 ## Done
 
-- [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
-- [ ] [[Find out the current state of LLMs]] #Research #Joel @{2023-06-15}
-- [ ] Summarise [[Attention is all you need]] #Research #Anish
-- [ ] Summarise [[LLM.int8()]] #Research #Arindam
-- [ ] [[First Phase Presentation]] <br>[link](https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit?usp=sharing&ouid=113458396771149391534&rtpof=true&sd=true)<br>#documentation #Anish #Arindam @{2023-06-24}
+- [ ] [[Attend Minor Project session]]<br>#documentation
 - [ ] [[Methodology summarisation]]<br>#documentation #Anish
+- [ ] [[First Phase Presentation]] <br>[link](https://docs.google.com/presentation/d/1XOAV_Au52le07uXYJZQxmwT_GwvhFZjh/edit?usp=sharing&ouid=113458396771149391534&rtpof=true&sd=true)<br>#documentation #Anish #Arindam @{2023-06-24}
+- [ ] Summarise [[LLM.int8()]] #Research #Arindam
+- [ ] Summarise [[Attention is all you need]] #Research #Anish
+- [ ] [[Find out the current state of LLMs]] #Research #Joel @{2023-06-15}
+- [ ] [[Set up obsidian in all systems]]<br>#documentation #Joel @{2023-06-19}
 
 
 
