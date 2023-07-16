@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] Run LLM in oobabooga #UI
 - [ ] Document hugging face's benchmarking methods<br>#documentation #Arindam
 - [ ] Find/create a summarisation dataset for finetuning<br>#LLM #Anish
+- [ ] streamlit
 
 
 ## Doing

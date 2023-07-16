@@ -176,10 +176,48 @@ MY FUCKING GOD!!! IT'S FUCKING HEREEEEEEEEEEEE!!!!!!!!!!!!!!!!!!!!!!!!! It works
 ## Llama-cpp-python with Langchain
 [Here](https://python.langchain.com/docs/modules/model_io/models/llms/integrations/llamacpp) the guide.
 
+### Selecting the vector store
+Chromadb and FAISS are the good unrestricted open source ones. 
+
+Ok, FAISS is a library while chroma is an actual database. Every other popular database wasn't opensource so chroma it is. 
+
+### Selecting the pdfloader
+I'm going with pypdf since it is more versatile and stores pgno as metadata. Even though pymupdf is faster.
+
+## Text splitter
+I'm just winging it with chunk size 2000 and overlap 200 on a recursive text splitter. I shouldn't choose splits based on the context of my LLM but embedding generator.
+
+## Embedding selection
+I just realised... we can't work with openai embeddings as that defeats the whole point. I looked at the MTEB rankings, there's a paper about I'll check later. For now, just judging by the various areas they're ranked on...
+
+Embeddings aren't that straightforward. I'm looking at instruct-xl embeddings and they seem good?
+
+Ok I'm getting a hang of embeddings, they seem to judge results based on cosine similarities in the end, which makes sense.
+
+I need embeddings ONLY for the vector search. So try out between clustering, info retrieval, summary embeddings etc... pariwise embedding? qna stuff perhaps? Pairwise coz the embeddings only need to match the question asked. I don't know how doctran will change this.
+
+Do I need to focus on summarisation scores? I need to read that paper.
+
+### Instructor-large
+Seems to be better in some cases (like physics) in information retrieval than xl. [Here](https://instructor-embedding.github.io/) the website.
+### Instructor-xl
+Bigger version of above.
+### [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
+This is doing pretty good in info retrieval, especially considering its size.
+
+
+I'm goin with instructor-large for now!
+
+## Doctran!!
+I think most of the magic is in the ingestion. Obviously, doctran tries to store documents in a qna format which is good but what if the document splitting isn't proper? From the little I saw from the recursive text splitter, it sucked at splitting things in a way that made sense. But it's decent I'd say. Maybe consider developing a better pdf parser?
+
 ## Some stuff
 - [ ] what's map reduce [here](https://python.langchain.com/docs/use_cases/summarization)
 - [ ] haven't gone into the use of make files [here](https://drivendata.github.io/cookiecutter-data-science/)
 - [ ] what's these 12 factor principles I'm hearing about??
+- [ ] Better pdf parser?
+- [ ] Add doctran next iteration
 
 ## Warnings
 - [ ] You're not using the same model as in the ranking but instead a 4/5 bit ggml model. Performance is expected to suffer.
+- [ ] I don't know the context window. I might need to change the chunk size of text splitter
