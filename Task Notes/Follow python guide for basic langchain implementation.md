@@ -202,11 +202,16 @@ Do I need to focus on summarisation scores? I need to read that paper.
 Seems to be better in some cases (like physics) in information retrieval than xl. [Here](https://instructor-embedding.github.io/) the website.
 ### Instructor-xl
 Bigger version of above.
+![[Pasted image 20230717171856.png]]
+This is the optimised document and query instruction for different cases.
+
 ### [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
 This is doing pretty good in info retrieval, especially considering its size.
 
 
 I'm goin with instructor-large for now!
+
+I'm using langchain's embedding intergration with instruct embeddings. I need to make sure it uses instructor-large, because so far it didn't give me a choice to select it.
 
 ## Doctran!!
 I think most of the magic is in the ingestion. Obviously, doctran tries to store documents in a qna format which is good but what if the document splitting isn't proper? From the little I saw from the recursive text splitter, it sucked at splitting things in a way that made sense. But it's decent I'd say. Maybe consider developing a better pdf parser?
