@@ -213,6 +213,9 @@ I'm goin with instructor-large for now!
 
 I'm using langchain's embedding intergration with instruct embeddings. I need to make sure it uses instructor-large, because so far it didn't give me a choice to select it.
 
+## Chroma
+# Now I need to change the query embedding to the database
+
 ## Doctran!!
 I think most of the magic is in the ingestion. Obviously, doctran tries to store documents in a qna format which is good but what if the document splitting isn't proper? From the little I saw from the recursive text splitter, it sucked at splitting things in a way that made sense. But it's decent I'd say. Maybe consider developing a better pdf parser?
 
