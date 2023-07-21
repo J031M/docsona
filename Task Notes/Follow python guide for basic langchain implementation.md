@@ -215,6 +215,11 @@ I'm using langchain's embedding intergration with instruct embeddings. I need to
 
 ## Chroma
 # Now I need to change the query embedding to the database
+https://python.langchain.com/docs/use_cases/question_answering/
+https://python.langchain.com/docs/modules/data_connection/vectorstores/integrations/chroma
+https://github.com/grumpyp/chroma-langchain-tutorial
+https://github.com/hwchase17/chroma-langchain/blob/master/qa.ipynb
+https://python.langchain.com/docs/modules/data_connection/document_transformers/integrations/doctran_interrogate_document
 
 ## Doctran!!
 I think most of the magic is in the ingestion. Obviously, doctran tries to store documents in a qna format which is good but what if the document splitting isn't proper? From the little I saw from the recursive text splitter, it sucked at splitting things in a way that made sense. But it's decent I'd say. Maybe consider developing a better pdf parser?
