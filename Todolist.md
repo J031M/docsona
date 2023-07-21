@@ -9,7 +9,6 @@ kanban-plugin: basic
 - [ ] Check out  [this](https://github.com/hwchase17/notion-qa) way to chat with document databases in notion #LLM #Joel
 - [ ] Run LLM in oobabooga #UI
 - [ ] Document hugging face's benchmarking methods<br>#documentation #Arindam
-- [ ] Find/create a summarisation dataset for finetuning<br>#LLM #Anish
 - [ ] streamlit
 
 
@@ -17,6 +16,7 @@ kanban-plugin: basic
 
 - [ ] [[Follow python guide for basic langchain implementation]]<br>#LLM #Joel @{2023-06-24}
 - [ ] Use [[MLOps]] procedures<br>#Research #Joel
+- [ ] Find/create a summarisation [[DATASET]] for finetuning<br>#LLM #Anish
 
 
 ## Done
