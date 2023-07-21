@@ -17,6 +17,7 @@ kanban-plugin: basic
 - [ ] [[Follow python guide for basic langchain implementation]]<br>#LLM #Joel @{2023-06-24}
 - [ ] Use [[MLOps]] procedures<br>#Research #Joel
 - [ ] Find/create a summarisation [[DATASET]] for finetuning<br>#LLM #Anish
+- [ ] [[Phase 2 Presentation]]<br>#documentation
 
 
 ## Done

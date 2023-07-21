@@ -1,4 +1,4 @@
-
+	
 ## Document loader
 
 ### Text
@@ -158,7 +158,7 @@ Here's the directory structure
 
 
 ## Llama-cpp-python
-My God this note is a mess. Anyway I'm using it to document my work on the first implementation of the project. Llama-cpp-python is used to allow our vicuna llm to communicate with langchain. 
+Llama-cpp-python is used to allow our vicuna llm to communicate with langchain. 
 
 There were things mentioned about optimising the build process for my laptop but I think a simple `pip install llama-cpp-python` should do the trick.
 
@@ -214,6 +214,8 @@ I'm goin with instructor-large for now!
 I'm using langchain's embedding intergration with instruct embeddings. I need to make sure it uses instructor-large, because so far it didn't give me a choice to select it.
 
 ## Chroma
+[Chroma](https://docs.trychroma.com/)
+
 # Now I need to change the query embedding to the database
 https://python.langchain.com/docs/use_cases/question_answering/
 https://python.langchain.com/docs/modules/data_connection/vectorstores/integrations/chroma
