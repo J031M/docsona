@@ -6,10 +6,11 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Check out  [this](https://github.com/hwchase17/notion-qa) way to chat with document databases in notion #LLM #Joel
-- [ ] Run LLM in oobabooga #UI
 - [ ] Document hugging face's benchmarking methods<br>#documentation #Arindam
+- [ ] LLM Finetuning<br>#LLM #Anish
+- [ ] Run LLM in oobabooga #UI
 - [ ] streamlit
+- [ ] Check out  [this](https://github.com/hwchase17/notion-qa) way to chat with document databases in notion #LLM #Joel
 
 
 ## Doing
